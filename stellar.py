@@ -381,5 +381,5 @@ class System:
         Pr =  np.diag(1/np.array(list(priors.values()))**2)
         self.Cov = np.linalg.solve(F + Pr,np.identity(6))
         self.diags = np.sqrt(np.diagonal(self.Cov))
-        self.out = pd.DataFrame([self.diags],columns=[r'$\sigma_a$',r'$\sigma{\ln\rho_s}$',r'$\sigma_{\lnr_s}$' ,r'$\sigma_{\beta}$',r'$\sigma_{b}$',r'$\sigma_{c}$'])
+        self.out = pd.DataFrame([self.diags],columns=[r'$\sigma_a$',r'$\sigma_{\ln\rho_s}$',r'$\sigma_{\ln{r_s}}$' ,r'$\sigma_{\beta}$',r'$\sigma_{b}$',r'$\sigma_{c}$'])
         return self.out,self.Cov
