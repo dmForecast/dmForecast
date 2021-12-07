@@ -4,10 +4,10 @@ dmForecast is a tool for forecasting uncertainties on properties of dwarf Galaxy
 
 Example usage provided in example.ipynb
 With this tool you can explore how errors scale with the number of stars you observe, and the accuracy of your observations:
-<img src="figures/sigma_vals_final.pdf" alt="Errors on Mass"/>
+<img src="https://github.com/dmForecast/dmForecast/blob/main/figures/sigma_vals_final.pdf" alt="scaling"/>
 
 Explore where errors are minimized:
-<img src="figures/mass_errors.pdf" alt="Errors on Mass"/>
+<img src="https://github.com/dmForecast/dmForecast/blob/main/figures/mass_errors.pdf" alt="Errors on Mass"/>
 
 Study degeneracies and the information needed to break them:
-<img src="figures/contours_final.pdf" alt="Confidence regions"/>
+<img src="https://github.com/dmForecast/dmForecast/blob/main/figures/contours_final.pdf" alt="confidence regions"/>
