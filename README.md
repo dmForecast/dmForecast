@@ -22,5 +22,5 @@ Study degeneracies and the information needed to break them:
 
 <img src="figures/contours_final.png" alt="confidence regions" width=75%/>
 
-Although the code in this github can be used to recreate the above plots, optimizations that i made throughout the project to speed up integration have not yet been made implemented. This will involve using numba which in my experience has not worked well with classes, although thats probably my fault. In the future i'll also switch to an auto-differentiator. The only reason i didn't do that here is because i couldn't figure out how to apply an auto-differentiator to the Hypergeometric function that I use to calculate the enclosed mass.
+Although the code in this github can be used to recreate the above plots, optimizations that i made throughout the project to speed up integration have not yet been made implemented. This will involve using numba which in my experience has not worked well with classes. In the future i'll also switch to an auto-differentiator. The only reason i didn't do that here is because i couldn't figure out how to apply an auto-differentiator to the Hypergeometric function that I use to calculate the enclosed mass.
 
