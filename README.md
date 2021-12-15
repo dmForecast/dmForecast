@@ -1,8 +1,9 @@
 # dmForecast
+[![arXiv](https://img.shields.io/badge/arXiv-2112.05166-<COLOR>.svg)](https://arxiv.org/abs/2112.05166)
 
 
 
-dmForecast is a tool for forecasting uncertainties on properties of dwarf galaxy Dark Matter halos (e.g shape of the density profile or enclosed mass)that is attainable through jeans modeling.
+dmForecast is a tool for forecasting uncertainties on properties of dwarf galaxy Dark Matter halos (e.g., shape of the density profile or enclosed mass) that is attainable through jeans modeling.
 
 Using Fisher matrices, which are constructed from the derivatives of the likelihood function used in traditional MCMC mass modeling methods, we can predict how well we will be able to constraint the properties of systems we're interested in.
 
@@ -24,3 +25,5 @@ Study degeneracies and the information needed to break them:
 
 Although the code in this github can be used to recreate the above plots, optimizations that i made throughout the project to speed up integration have not yet been made implemented. This will involve using numba which in my experience has not worked well with classes. In the future i'll also switch to an auto-differentiator. The only reason i didn't do that here is because i couldn't figure out how to apply an auto-differentiator to the Hypergeometric function that I use to calculate the enclosed mass.
 
+# Attribution
+[![DOI](https://zenodo.org/badge/414746751.svg)](https://zenodo.org/badge/latestdoi/414746751)
